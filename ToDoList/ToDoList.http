@@ -1,0 +1,5 @@
+@TodoApi_HostAddress = http://localhost:5225
+
+DELETE {{TodoApi_HostAddress}}/todoitems/1
+
+###
