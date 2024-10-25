@@ -43,3 +43,4 @@ C:\Users\theog\RiderProjects\ToDoList\ToDoList\bin\Debug\net8.0\Microsoft.Extens
 C:\Users\theog\RiderProjects\ToDoList\ToDoList\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\theog\RiderProjects\ToDoList\ToDoList\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 C:\Users\theog\RiderProjects\ToDoList\ToDoList\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\theog\RiderProjects\ToDoList\ToDoList\obj\Debug\net8.0\ToDoList.sourcelink.json
