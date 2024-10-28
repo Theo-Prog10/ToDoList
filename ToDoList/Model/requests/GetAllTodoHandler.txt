@@ -1,0 +1,18 @@
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Model.requests;
+
+public class GetAllPessoasHandler
+{
+    private readonly TodoDb _context;
+
+    public GetAllPessoasHandler(TodoDb context)
+    {
+        _context = context;
+    }
+
+    public async Task<List<Pessoa>> Handle()
+    {
+        return await _context.Pessoas.Include(p => p.Enderecos).ToListAsync();
+    }
+}
