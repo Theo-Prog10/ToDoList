@@ -1,0 +1,26 @@
+@TodoApi_HostAddress = http://localhost:5225
+
+POST {{TodoApi_HostAddress}}/pessoas/1/enderecos
+Content-Type: application/json
+
+{
+  "logradouro": "santo carvalho",
+  "numero": "234",
+  "uf": "ES",
+  "cidade": "Vitoria",
+  "bairro": "Bento ferreira"
+}
+###
+
+POST {{TodoApi_HostAddress}}/pessoas/
+Content-Type: application/json
+
+{
+  "nome": "theo fish",
+  "idade": 20,
+  "email": "theo@gmail.com"
+}
+
+###
+
+DELETE {{TodoApi_HostAddress}}/pessoas/delete/1
