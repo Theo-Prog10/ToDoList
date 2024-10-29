@@ -1,6 +1,6 @@
 @TodoApi_HostAddress = http://localhost:5225
 
-POST {{TodoApi_HostAddress}}/pessoas/1/enderecos
+POST {{TodoApi_HostAddress}}/Pessoas/1/enderecos
 Content-Type: application/json
 
 {
@@ -12,7 +12,7 @@ Content-Type: application/json
 }
 ###
 
-POST {{TodoApi_HostAddress}}/pessoas/
+POST {{TodoApi_HostAddress}}/Pessoas
 Content-Type: application/json
 
 {
@@ -23,4 +23,15 @@ Content-Type: application/json
 
 ###
 
-DELETE {{TodoApi_HostAddress}}/pessoas/delete/1
+DELETE {{TodoApi_HostAddress}}/Pessoas/1
+
+###
+
+PUT {{TodoApi_HostAddress}}/Pessoas/1
+Content-Type: application/json
+
+{
+  "nome": "livia fish",
+  "idade": 20,
+  "email": "theo@gmail.com"
+}

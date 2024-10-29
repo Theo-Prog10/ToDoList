@@ -13,4 +13,20 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Model\requests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Model\requests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Model\requests\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Model\requests\**" />
+    </ItemGroup>
+
 </Project>
