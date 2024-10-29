@@ -35,3 +35,7 @@ Content-Type: application/json
   "idade": 20,
   "email": "theo@gmail.com"
 }
+
+###
+
+DELETE {{TodoApi_HostAddress}}/Pessoas/1/enderecos/1

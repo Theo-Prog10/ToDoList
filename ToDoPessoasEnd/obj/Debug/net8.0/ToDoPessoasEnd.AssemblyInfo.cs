@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ToDoPessoasEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deadd7a02475a01aed36aa67f8683e2e9155a8df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ec8735d8eb894a4738ed17dbd64f82057907149a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ToDoPessoasEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ToDoPessoasEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
